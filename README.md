@@ -1,6 +1,6 @@
 # [laurenzfg/docker-texlive-full](https://github.com/laurenzfg/docker-texlive-full/pkgs/container/docker-texlive-full)
 
-[![Docker Stars](https://github.com/laurenzfg/docker-texlive-full/actions/workflows/main.yml/badge.svg)](https://github.com/laurenzfg/docker-texlive-full/pkgs/container/docker-texlive-full)
+[![Docker Stars](https://github.com/laurenzfg/docker-texlive-full/actions/workflows/main/badge.svg)](https://github.com/laurenzfg/docker-texlive-full/pkgs/container/docker-texlive-full)
 
 This is a Docker image containing a [`TeX Live`](http://en.wikipedia.org/wiki/TeX_Live) installation with many required packages, several fonts, German language support
 and other stuff (like GNU `make` or, Python with some data science packages) I need in my TeX workflow.
