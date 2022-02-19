@@ -62,26 +62,15 @@ RUN echo "Initial update." &&\
           fonts-stix \
           fonts-symbola \
           fonts-texgyre \
-          fonts-unfonts-core \
-          ttf-wqy-microhei \
-          ttf-wqy-zenhei \
-          xfonts-intl-chinese \
-          xfonts-intl-chinese-big \
-          xfonts-wqy &&\
+          fonts-unfonts-core &&\
 # install TeX Live and ghostscript as well as other tools
     apt-get install -f -y --no-install-recommends \
           biber \
           cm-super \
           dvipng \
-          fonts-dejavu \
-          fonts-dejavu-core \
-          fonts-dejavu-extra \
           ghostscript \
           gnuplot \
           make \
-          latex-cjk-all \
-          latex-cjk-common \
-          latex-cjk-chinese \
           latexmk \
           lcdf-typetools \
           lmodern \
@@ -102,8 +91,7 @@ RUN echo "Initial update." &&\
           texlive-fonts-recommended \
           texlive-formats-extra \
           texlive-lang-all \
-          texlive-lang-chinese \
-          texlive-lang-cjk \
+          texlive-lang-german \
           texlive-latex-base \
           texlive-latex-extra \
           texlive-latex-recommended \
