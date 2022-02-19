@@ -16,7 +16,7 @@ env:
 
 jobs:
   push_to_registry:
-    runs-on: ubuntu-focal
+    runs-on: ubuntu-20.04
     permissions:
       contents: read
       packages: write
