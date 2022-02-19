@@ -7,8 +7,6 @@ name: Publish Docker image
 
 on:
   push:
-    branches:
-      - 'master'
     tags:
       - 'v*' # push for all commits with a v tag
 
