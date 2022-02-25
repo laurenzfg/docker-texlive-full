@@ -124,7 +124,8 @@ RUN apt-get install -f -y --no-install-recommends \
     python3-scipy \
     python3-numpy \
     python3-matplotlib \
-    python3-seaborn
+    python3-seaborn \
+    python3-pandas
     
 # clean up all temporary files
 RUN echo "Clean up all temporary files." &&\
