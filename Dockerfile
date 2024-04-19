@@ -119,7 +119,7 @@ RUN echo "Initial update." &&\
     
 # Install some python3 stuff
 RUN apt-get install -f -y --no-install-recommends \
-    python3.8 \
+    python3.10 \
     python3-pip
 
 RUN pip3 install \
