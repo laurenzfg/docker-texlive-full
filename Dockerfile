@@ -9,8 +9,8 @@
 # software components inside the image are under the respective
 # licenses chosen by their respective copyright holders.
 #
-FROM ubuntu:focal
-MAINTAINER Laurenz Grote <mail@laurenzgrote.de>
+FROM ubuntu:jammy
+MAINTAINER Laurenz Grote <laurenzfg@laurenfg.com>
 
 ENV LANG=C.UTF-8
 ENV DEBIAN_FRONTEND=noninteractive
